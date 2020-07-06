@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+
+    <link rel="shortcut icon" href="./img/cal.png">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+   
+    <!-- Calculator card -->
+    <div class="1"></div>
+    <div class="2"></div>
+    <div class="3"></div>
+    <div class="4"></div>
+
+
+    <div class="calculator5">
+        <!-- Header of Calculator -->
+        <div class="header"><strong>Abacus</strong></div>
+        <!-- Calculator screen -->
+       <div class="calculator-screen" id="screen">0</div>
+        <!-- Calculator buttons -->
+        <div class="calculator-keys">
+            <!-- First row -->
+            <button type="button" class="number7" value="7" >7</button>
+            <button type="button" class="number8" value="8">8</button>
+            <button type="button" class="number9" value="9">9</button>
+            <button type="button" class="operator div" value="/" data-action="div">/</button>
+            <button type="button" class="operator mod" value="%" data-action="mod">%</button>
+
+            <!-- Second row -->
+            <button type="button" class="number4" value="4">4</button>
+            <button type="button" class="number5" value="5">5</button>
+            <button type="button" class="number6" value="6">6</button>
+            <button type="button" class="operator mul" value="*" data-action="mul">*</button>
+            <button type="button" class="operator inv" value="1/x" data-action="inv">1/x</button>
+
+            <!-- Third Row -->
+            <button type="button" class="number1" value="1">1</button>
+            <button type="button" class="number2" value="2">2</button>
+            <button type="button" class="number3" value="3">3</button>
+            <button type="button" class="operator min" value="-" data-action="min">-</button>
+
+            <!-- Fourth Row -->
+            <button type="button" class="equal" value="=" data-action="equal">=</button>
+            <button type="button" class="all-clear" value="all-clear" data-action="clear">AC</button>
+            <button type="button" class="number0" value="0">0</button>
+            <button type="button" class="decimal" value="." data-action="decimal">.</button>
+
+
+            <button type="button" class="operator add" value="+" data-action="add">+</button>
+
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+            <img src="./img/band.png">Developers Band
+
+
+        </div>
+    </div>
+    <div class="6"></div>
+    <div class="7"></div>
+    <div class="8"></div>
+    <div class="9"></div>
+    <script src="Calculator.js"></script>
+
+</html>

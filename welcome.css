@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo Bhai 2');
+html { 
+  background: url(./img/road-in-city-during-sunset-248159.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+header {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-family: 'Baloo Bhai 2';
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 50px;
+  white-space: nowrap;
+}
+p {
+  margin: 0;
+  font-size: 30px;
+}
